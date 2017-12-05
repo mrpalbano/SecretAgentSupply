@@ -28,6 +28,29 @@ header img {
 
 .container img {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+
+.container h5 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 2rem, 0, 0.25rem, 3rem;
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+.container h1, h5 {
+  background-color: black;
+  color: white;
+}
+
+.container nav {
+  background-color: firebrick;
+  display: block;
 }
