@@ -12,6 +12,7 @@ header span {
   font-family: Helvetica;
   font-size: 1rem;
   padding: 0.66rem 0.5rem;
+  text-transform: uppercase;
 }
 
 header img {
@@ -22,6 +23,7 @@ header img {
 .container {
   height: 25rem;
   width: auto;
+  max-width: 960px;
 }
 
 .container img {
