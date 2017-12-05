@@ -5,15 +5,27 @@ html {
 header {
   background-color: black;
   display: block;
+  color: white;
 }
 
 header span {
   font-family: Helvetica;
   font-size: 1rem;
+  padding: 0.66rem 0.5rem;
 }
 
 header img {
   height: 1.5rem;
-  padding-left: 0.5rem;
-  padding-right: 1rem;
+  padding: 0 0.5rem;
+}
+
+.container {
+  height: 25rem;
+  width: auto;
+}
+
+.container img {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
