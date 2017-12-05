@@ -2,6 +2,10 @@ html {
   font-size: 18px;
 }
 
+body {
+    max-width: 960px;
+}
+
 header {
   background-color: black;
   display: block;
@@ -23,12 +27,8 @@ header img {
 .container {
   height: 25rem;
   width: auto;
-  max-width: 960px;
-}
-
-.container img {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -53,4 +53,10 @@ header img {
 .container nav {
   background-color: firebrick;
   display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav span {
+  justify-content: space-between;
 }
