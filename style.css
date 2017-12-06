@@ -54,7 +54,8 @@ header img {
   background-color: firebrick;
   display: block;
   text-align: center;
-  margin: 0 auto;
+  width: 960px;
+  position: fixed;
 }
 
 nav li {
@@ -62,6 +63,8 @@ nav li {
   list-style: none;
   display: inline;
   color: white;
+  padding: 2rem;
+  font-family: Helvetica;
 }
 
 nav a {
