@@ -57,6 +57,14 @@ header img {
   margin: 0 auto;
 }
 
-nav span {
+nav li {
   justify-content: space-between;
+  list-style: none;
+  display: inline;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
