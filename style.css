@@ -24,6 +24,10 @@ header img {
   padding: 0 0.5rem;
 }
 
+.arrivals {
+  background-color: black;
+}
+
 .arrivals h5 {
   font-family: Helvetica;
   font-size: 1rem;
@@ -55,7 +59,6 @@ header img {
   display: block;
   text-align: center;
   width: 960px;
-  position: fixed;
 }
 
 nav li {
