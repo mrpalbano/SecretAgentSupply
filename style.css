@@ -74,3 +74,21 @@ nav a {
   color: white;
   text-decoration: none;
 }
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+section div {
+  width: 30%;
+}
+
+.pen img, .watch img, .glasses img {
+  border: 4px solid black;
+  height: 9rem;
+  width: auto;
+  padding: 2rem, auto;
+}
