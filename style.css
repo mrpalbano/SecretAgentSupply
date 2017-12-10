@@ -61,13 +61,11 @@ header img {
   text-align: center;
 }
 
-nav li {
+nav ul {
+  align-items: center;
   justify-content: space-between;
+  padding: 0.75em 0;
   list-style: none;
-  display: inline;
-  color: white;
-  padding: 2rem;
-  font-family: Helvetica;
 }
 
 nav a {
