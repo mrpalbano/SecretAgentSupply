@@ -120,3 +120,19 @@ body {
   display: block;
 }
 }
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15em;
+  }
+
+  .headline {
+    width: 100%;
+    top: 10em;
+    padding: 1em 2em;
+  }
+
+  footer {
+    text-align: center;
+}
+}
