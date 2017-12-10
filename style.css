@@ -103,10 +103,20 @@ footer {
     margin-top: 4em;
 }
 
-.mobile-nav container {
+.mobile-nav {
   display: none;
 }
-@media only screen and (max-width: 1024px)
-styles.css:24
+
+@media only screen and (max-width: 1024px) {
 body {
     font-size: 16px;
+}
+
+.product {
+  width: 47%;
+}
+
+.mobile-nav {
+  display: block;
+}
+}
