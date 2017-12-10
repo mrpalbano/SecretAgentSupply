@@ -58,7 +58,6 @@ header img {
   background-color: firebrick;
   display: block;
   text-align: center;
-  width: 960px;
 }
 
 nav li {
@@ -83,12 +82,12 @@ section {
 }
 
 section div {
-  width: 30%;
+  width: 960px;
 }
 
 .pen img, .watch img, .glasses img {
   border: 4px solid black;
   height: 9rem;
-  width: auto;
+    width: 30%;
   padding: 2rem, auto;
 }
