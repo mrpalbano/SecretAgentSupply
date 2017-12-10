@@ -125,6 +125,7 @@ section h3 {
 
 .data {
   width: 35%;
+  display: inline-block;
 }
 
 .input {
