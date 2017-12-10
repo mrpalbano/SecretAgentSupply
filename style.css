@@ -90,13 +90,28 @@ section h3 {
   background-color: black;
   color: white;
   text-align: center;
-  
+
 }
-.pen img, .watch img, .glasses img {
-  justify-content: center;
+.pen {
   align-items: center;
   border: 4px solid black;
   height: 9rem;
   width: 30%;
   padding: 2rem, auto;
 }
+
+.watch {
+  align-items: center;
+  border: 4px solid black;
+  height: 9rem;
+  width: 30%;
+  padding: 2rem, auto;
+}
+
+ .glasses {
+   align-items: center;
+   border: 4px solid black;
+   height: 9rem;
+   width: 30%;
+   padding: 2rem, auto; 
+ }
